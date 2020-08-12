@@ -8,7 +8,7 @@ var clearAllButton = document.getElementById("clear-all");
 function inputLength() {
 	return input.value.length;
 }
-
+ 
 function createDeleteButton() {
 	deleteButton.appendChild(document.createTextNode("Delete"));
 	deleteButton.addEventListener("click", deleteThisItem);
